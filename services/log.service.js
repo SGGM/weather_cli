@@ -13,7 +13,7 @@ const printHelp = () => {
 	console.log(
 		dedent`${chalk.bgCyan(' HELP ')}
 		No params - showing weather
-		-c [CITY] chose city
+		-c [CITY] chose and save city
 		-h help
 		-t [API_KEY] save token
 		`
