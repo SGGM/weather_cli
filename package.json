@@ -4,9 +4,12 @@
   "private": false,
   "description": "CLI for getting weather",
   "main": "weather.js",
-  "bin": "./index.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
